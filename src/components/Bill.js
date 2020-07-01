@@ -1,26 +1,57 @@
 import React, { Fragment } from 'react';
 
-const Bill = ({ bill }) => {
+const Bill = ({  totalTickets, ticketCost, tax }) => {
 
-    const { totolTickets, mount, taxes } = bill;
+   
     return (
         <Fragment>
-            <div className="container">
-                <div className="card-deck">
-
-                    <div class="card mt-3">
-                    <div className="card-header">
-                    Detalle Factura
-                    </div>
-                       
-                        <ul className="list-group list-group-flush">
-                            <li className="list-group-item">Total Tickets: {totolTickets}</li>
-                            <li className="list-group-item">Moton: {mount} </li>
-                            <li className="list-group-item">Taxes: {taxes}</li>
-                            <li className="list-group-item">Importe: {mount + taxes}</li>
-                        </ul>
+            <div className="container my-3 border border-primary">
+               
+                <div className="row ">
+                    <div className=" col-sm-12 alert alert-primary">
+                        Detalle Factura
                     </div>
                 </div>
+
+                <div className="row">
+                    <div className="col-sm-4">
+                        Total Tickets:
+                    </div>
+                    <div className="col-sm-4">
+                    $ {totalTickets}
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-sm-4">
+                    Moto:
+                    </div>
+                    <div className="col-sm-4">
+                    $ {totalTickets * ticketCost}
+                    </div>
+                </div>
+
+
+                <div className="row">
+                    <div className="col-sm-4">
+                    Taxes:
+                    </div>
+                    <div className="col-sm-4">
+                    $ {(totalTickets * ticketCost) * tax}
+                    </div>
+                </div>
+
+
+                <div className="row">
+                    <div className="col-sm-4">
+                    Importe:
+                    </div>
+                    <div className="col-sm-4">
+                    $ {(totalTickets * ticketCost) + (totalTickets * ticketCost) * tax}
+                    </div>
+                </div>
+
+
             </div>
         </Fragment>
     );

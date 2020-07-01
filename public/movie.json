@@ -1,0 +1,61 @@
+[
+    {   "id":1,
+        "Title": "Avatar",
+        "Year": "2009",
+        "Rated": "PG-13",
+        "Released": "18 Dec 2009",
+        "Runtime": "162 min",
+        "Genre": "Action, Adventure, Fantasy",
+        "Director": "James Cameron"
+    },
+    {
+        "id":2,
+        "Title": "I Am Legend",
+        "Year": "2007",
+        "Rated": "PG-13",
+        "Released": "14 Dec 2007",
+        "Runtime": "101 min",
+        "Genre": "Drama, Horror, Sci-Fi",
+        "Director": "Francis Lawrence"
+    },
+    {   "id":3,
+        "Title": "300",
+        "Year": "2006",
+        "Rated": "R",
+        "Released": "09 Mar 2007",
+        "Runtime": "117 min",
+        "Genre": "Action, Drama, Fantasy",
+        "Director": "Zack Snyder"
+    },
+    {
+        "id":4,
+        "Title": "The Avengers",
+        "Year": "2012",
+        "Rated": "PG-13",
+        "Released": "04 May 2012",
+        "Runtime": "143 min",
+        "Genre": "Action, Sci-Fi, Thriller",
+        "Director": "Joss Whedon"
+    },
+    {
+        "id":5,
+        "Title": "The Wolf of Wall Street",
+        "Year": "2013",
+        "Rated": "R",
+        "Released": "25 Dec 2013",
+        "Runtime": "180 min",
+        "Genre": "Biography, Comedy, Crime",
+        "Director": "Martin Scorsese"
+    }
+    ,
+    {
+        "id":6,
+        "Title": "The godfather",
+        "Year": "2013",
+        "Rated": "R",
+        "Released": "March 14, 1972",
+        "Runtime": "177 min",
+        "Genre": " Gangster",
+        "Director": "Francis Ford Coppola"
+    }
+]
